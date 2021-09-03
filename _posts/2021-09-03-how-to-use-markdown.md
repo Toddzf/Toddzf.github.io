@@ -366,7 +366,7 @@ Markdown[^1][^2]
 &emsp;&emsp;顺便说一下，我们也可以用类似的方法导入 bilibili 视频。点击网页版 bilibili 视频的分享按钮，有一个“嵌入代码”，把它复制到博文中即可。代码长这个样：
 
 ```html
-<iframe src="//player.bilibili.com/player.html?aid=2315321&bvid=BV1qs411D7Xb&cid=3612500&page=1&as_wide=1&high_quality=1&danmaku=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="500" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"> </iframe>
+<iframe src="//player.bilibili.com/player.html?aid=2315321&bvid=BV1qs411D7Xb&cid=3612500&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="500"> </iframe>
 ```
 
-<iframe src="//player.bilibili.com/player.html?aid=2315321&bvid=BV1qs411D7Xb&cid=3612500&page=1&as_wide=1&high_quality=1&danmaku=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="500" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"> </iframe>
+<iframe src="//player.bilibili.com/player.html?aid=2315321&bvid=BV1qs411D7Xb&cid=3612500&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="500"> </iframe>
