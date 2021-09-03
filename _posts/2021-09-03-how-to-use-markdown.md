@@ -7,6 +7,8 @@ tags: [Tutorial]
 toc:  true
 ---
 
+> This article is dedicated to Mollia
+
 ## Ⅰ 新建一篇博文
 
 1. 在 `_posts` 目录下新建一个文本文档，文件名建议采用 `年-月-日-标题` 的格式
