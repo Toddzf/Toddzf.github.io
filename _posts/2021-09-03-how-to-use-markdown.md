@@ -9,7 +9,7 @@ toc:  true
 
 > This article is dedicated to Mollia
 
-## Ⅰ 新建一篇博文
+## 1 写一篇博文的流程
 
 1. 在 `_posts` 目录下新建一个文本文档，文件名建议采用 `年-月-日-标题` 的格式
 2. 将文本文档的后缀改为 `.md`
@@ -17,12 +17,14 @@ toc:  true
 4. 利用 Github Desktop 软件上传到 Github
 5. 稍等一小会，你就可以在网页上看到刚写的博文啦！😀
 
+下面，我们就来介绍如何利用 Markdown 写博文。
+
 <p class="message">
 什么是Markdown?<br/>
 Markdown 是一种轻量级标记语言，它利用一些“标记”来设置文字的显示格式。
 </P>
 
-## Ⅱ 博客头部信息
+## 2 头部信息
 
 &emsp;&emsp;在正式开始写博文之前，我们需要设置博文的标题、日期、标签等。因此需要在博文开头写一段头部信息：
 
@@ -48,11 +50,11 @@ toc:  true
 
 &emsp;&emsp;咱不用全部手打😅，复制之前博客的头部信息，然后改一下就行。
 
-## Ⅲ 博客正文
+## 3 博客正文
 
 &emsp;&emsp;经过上面简单的准备后，我们终于开始写正文啦🎉。下面我们来看看怎么用 Markdown 写博文👀。
 
-### 标题
+### 3.1 标题
 
 &emsp;&emsp;在文字前面加 `#` 就表示标题，有几个 `#` 就是几级标题，注意 `#` 和文字之间有一个空格。
 
@@ -74,7 +76,7 @@ toc:  true
 <strong>我强烈建议不要用一级标题，而是从二级标题开始用。</strong>有两个原因：一是，这个博客的目录不会显示一级标题；二是，在 Markdown 中一级标题通常指全文的总标题，而总标题已经在头部信息中写过了。
 </P>
 
-### 自然段
+### 3.2 自然段
 
 &emsp;&emsp;Markdown 有一个特点：它会将“同一行”和“相邻行”的文字看作是同一自然段的。比如：
 
@@ -114,7 +116,7 @@ toc:  true
 
 五味令人口爽。
 
-### 加粗、斜体…
+### 3.3 加粗、斜体…
 
 &emsp;&emsp;下面列出一些常用的字体格式：
 
@@ -146,7 +148,7 @@ toc:  true
 
 示例<sub>下标</sub>
 
-### 分割线
+### 3.4 分割线
 
 &emsp;&emsp;分割线由三个或以上短横线 `-` 组成，注意分割线与自然段要隔开一行。
 
@@ -172,7 +174,7 @@ toc:  true
 
 ---------------------
 
-### 列表
+### 3.5 列表
 
 &emsp;&emsp;Markdown 中有三种列表：有序列表、无序列表和清单，另外列表可以嵌套。请看下面的示例。
 
@@ -242,7 +244,7 @@ toc:  true
    * 叉烧
    * 青菜
 
-### 网页链接
+### 3.6 网页链接
 
 &emsp;&emsp;网页链接由“网页名+网址”组成，写法参考下面的示例。注意网址一定要写全，前面的 `https://` 不能省！
 
@@ -256,7 +258,7 @@ toc:  true
 
 [百度](https://baidu.com)
 
-### 图片
+### 3.7 图片
 
 图片稍微有点复杂。我们分两种情况，一种是你的图像是从网上找的，比如我在网上发现了一张好看的图片（下图），那么可以右键单击图片，然后选择“复制图像链接”
 
@@ -280,11 +282,14 @@ toc:  true
 
 ---
 
-&emsp;&emsp;另一种是，你的图片是一个文件，那么我建议这样做：
+&emsp;&emsp;另一种是，你的图片是一个文件，那么我建议使用 [路过图床](https://imgtu.com/)，具体步骤如下：
 
-1. 在博客中，有一个 `assets` 文件夹，在这文件夹里面新建一个叫 `images` 的文件夹用于存放图片文件
-2. 将图片复制到上面说的 `images` 文件夹内
-3. 在文章中输入
+1. 在 [路过图床](https://imgtu.com/) 注册一个账号；
+2. 点击网页右上角的上传按钮，将图片上传上去；
+3. 上传好后，复制网站提供的“图片URL链接”；
+4. 仿照上面的例子将链接粘贴到博文中。
+
+&emsp;&emsp;还有一种方法，你可以将图片文件复制到博客的某个文件夹中。比如我在 `assets` 文件夹中新建了一个叫 `images` 的文件夹，用于专门放图片。我把图片复制进去后，按照如下格式在博文中加入图片：
 
 ```markdown
 ![](/assets/images/文件名)
@@ -297,7 +302,7 @@ toc:  true
 
 ![](/assets/images/wallhaven.jpg)
 
-### 引用
+### 3.8 引用
 
 **示例**：
 
@@ -310,7 +315,7 @@ toc:  true
 > 生活就像海洋，只有意志坚强的人，才能到达彼岸。——马克思
 
 
-### 注释
+### 3.9 注释
 
 **示例**：
 
@@ -329,13 +334,15 @@ Markdown[^1][^2]
 [^2]: 很好用
 
 
-## Q&A
+## 4 Q&A
 
 **Markdown 语法好多啊😭记不住怎么办？**
 
 &emsp;&emsp;Markdown 的语法虽然看起来很多，你并不需要死记。一开始你可以一边写，需要什么格式就到这篇文章中查找。等你写得多后，自然就记住各种语法啦！
 
 &emsp;&emsp;而且现在有很多 Markdown 编辑器用起来和 Word 差不多，你可以安装 [Typora](https://typora.io/) 试试看哦！
+
+------
 
 **怎么在段首空两格呀？**
 
@@ -351,17 +358,19 @@ Markdown[^1][^2]
 
 &emsp;&emsp;空两格
 
+------
+
 **怎么加入音乐？**
 
 &emsp;&emsp;打开网易云音乐的网页端，进入某首歌的页面，然后点封面下面的“生成外链播放器”，然后复制代码到博文中。代码长这个样：
 
 ```html
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=5061778&auto=1&height=66"></iframe>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=5061778&auto=0&height=66"></iframe>
 ```
 
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=5061778&auto=1&height=66"></iframe>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=5061778&auto=0&height=66"></iframe>
 
-&emsp;&emsp;注意某些歌可能不支持“生成外链播放器”。另外QQ音乐没有这个功能。
+&emsp;&emsp;为了避免自动播放，你可以将代码中的 "auto=1" 改为 "auto=0"。注意某些歌可能不支持“生成外链播放器”。另外QQ音乐没有这个功能。
 
 &emsp;&emsp;顺便说一下，我们也可以用类似的方法导入 bilibili 视频。点击网页版 bilibili 视频的分享按钮，有一个“嵌入代码”，把它复制到博文中即可。代码长这个样：
 
