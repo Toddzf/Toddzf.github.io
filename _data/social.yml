@@ -6,7 +6,7 @@
   icon: fab fa-weixin
 - title: Bilibili
   url: https://space.bilibili.com/14158798
-  icon: fab fa-youtube 
-- title: Other Website
-  url: https://todd.scuteee.com
-  icon: fas fa-compass
+  icon: fab fa-youtube
+- title: Netease Music
+  url: https://music.163.com/#/user/home?id=89768834
+  icon: fas fa-music
