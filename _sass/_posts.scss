@@ -15,6 +15,10 @@
 
   h1, h2, h3, h4, h5, h6, .post-meta {
     font-family: var(--body-font);
+    padding-bottom: 0.5em;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: white;
   }
 
   li + li {
