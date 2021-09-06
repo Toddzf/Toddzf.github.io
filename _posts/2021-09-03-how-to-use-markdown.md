@@ -4,6 +4,7 @@ title: 如何使用 Markdown 写博文
 date: 2021-09-03 08:32 +0800
 last_modified_at: 2021-09-03 09:08:25 +0800
 tags: [Tutorial]
+categories: Tutorial
 toc:  true
 ---
 
