@@ -6,10 +6,10 @@ last_modified_at: 2021-09-03 09:08:25 +0800
 tags: [Tutorial]
 categories: Tutorial
 toc:  true
-password: Mollia
+password: 
 ---
 
-> This article is dedicated to Mollia
+> This article is dedicated to **Mollia**
 
 ## 1 写一篇博文的流程
 
@@ -38,17 +38,19 @@ date: 2021-09-03 08:32 +0800
 last_modified_at: 2021-09-03 09:08:25 +0800
 tags: [Tutorial]
 toc:  true
+password: Mollia
 ---
 ```
 
-&emsp;&emsp;这是本篇博文的头部信息，注意前后的 `---` 也要写上去，中间各行表示的意思如下：
+&emsp;&emsp;这是本篇博文的头部信息，注意前后的 `---` 也要写上去，另外每个冒号 `:` 后面有一个空格。中间各行表示的意思如下：
 
 * `layout`：文章的排版。一些博客主题可能会提供多种排版，但在这个主题只有 `post` 这一种排版，所以咱不用改；
 * `title`：文章的标题；
 * `date`：文章的创建日期，注意格式是 `年-月-日 时-分 时区`；
 * `last_modified_at`：文章上次修改的时间，格式和上面一样；
-* `tags`：文章的标签。如果文章只有一个标签，那么写 `tags: 标签` 或 `tags: [标签]` 都行；如果有多个标签，那么标签要用方括号包起来，标签之间用英语逗号隔开，即 `tags: [标签1, 标签2]`。
-* `toc`：是否要显示文章目录，是就写 `true`，否就写 `false`。
+* `tags`：文章的标签。如果文章只有一个标签，那么写 `tags: 标签` 或 `tags: [标签]` 都行；如果有多个标签，那么标签要用方括号包起来，标签之间用英语逗号隔开，即 `tags: [标签1, 标签2]`；
+* `toc`：是否要显示文章目录，是就写 `true`，否就写 `false`；
+* `password`: 密码，如果不想要密码，就不要写这行。
 
 &emsp;&emsp;咱不用全部手打😅，复制之前博客的头部信息，然后改一下就行。
 
