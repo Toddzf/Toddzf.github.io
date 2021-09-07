@@ -32,6 +32,10 @@
   li + li {
     margin-top: .25rem;
   }
+
+  sub, sup {
+    text-indent: 0;
+  }
 }
 
 .post>p {
