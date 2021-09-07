@@ -22,7 +22,7 @@
   }
 
   p {
-    text-indent: 2em;
+    text-indent: 0;
   }
 
   .post-meta {
@@ -32,6 +32,10 @@
   li + li {
     margin-top: .25rem;
   }
+}
+
+.post>p {
+  text-indent: 2em;
 }
 
 // Blog post or page title
