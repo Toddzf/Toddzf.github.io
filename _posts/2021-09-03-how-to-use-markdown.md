@@ -37,7 +37,7 @@ title: 如何使用 Markdown
 date: 2021-09-03 08:32 +0800
 last_modified_at: 2021-09-03 09:08:25 +0800
 tags: [Tutorial]
-toc:  true
+toc: true
 password: Mollia
 ---
 ```
@@ -324,18 +324,18 @@ Markdown 中有三种列表：有序列表、无序列表和清单，另外列�
 **示例**：
 
 ```markdown
-Markdown[^1][^2]
+Markdown[^what-is-markdown][^feeling]
 
-[^1]: 一种标记语言
-[^2]: 很好用
+[^what-is-markdown]: 一种标记语言
+[^feeling]: 很好用
 ```
 
 **效果**：
 
-Markdown[^1][^2]
+Markdown[^what-is-markdown][^feeling]
 
-[^1]: 一种标记语言
-[^2]: 很好用
+[^what-is-markdown]: 一种标记语言
+[^feeling]: 很好用
 
 
 ## 4 Q&A
