@@ -387,3 +387,20 @@ Markdown 的语法虽然看起来很多，你并不需要死记。一开始你�
 ```
 
 <iframe src="//player.bilibili.com/player.html?aid=2315321&bvid=BV1qs411D7Xb&cid=3612500&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="500"> </iframe>
+
+---
+
+**如何加入自己的音乐**
+
+目前只支持MP3格式的音乐。首先，你需要有一个域名，然后注册一个七牛云账号，然后绑定自己的域名。如果你没有域名，那么把你的音频发给我，我会将它上传到我的七牛云（Molly，我说的就是你！），然后我会给你一个链接，把链接按下面格式粘贴到文中即可：
+
+```html
+<p>链接</p>
+
+比如：
+<p>http://pic.scuteee.com/mp3/Bohemian%20Rhapsody.mp3</p>
+```
+
+效果：
+
+<p>http://pic.scuteee.com/mp3/Bohemian%20Rhapsody.mp3</p>
