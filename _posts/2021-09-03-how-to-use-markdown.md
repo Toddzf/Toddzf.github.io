@@ -404,3 +404,16 @@ Markdown 的语法虽然看起来很多，你并不需要死记。一开始你�
 效果：
 
 <p>http://pic.scuteee.com/mp3/Bohemian%20Rhapsody.mp3</p>
+
+
+另一种方法是把自己的音频放到仓库中，然后把链接按上面的格式粘贴到文中。比如我有在 `assets` 文件夹下新建了一个 `audio` 文件夹，里面有个mp3文件叫 `Bohemian Rhapsody.mp3`。那么链接就是：
+
+```html
+<p>/assets/audio/Bohemian%20Rhapsody.mp3</p>
+
+注意空格用 %20 代替
+```
+
+效果：
+
+<p>/assets/audio/Bohemian%20Rhapsody.mp3</p>
