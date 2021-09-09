@@ -417,3 +417,5 @@ Markdown 的语法虽然看起来很多，你并不需要死记。一开始你�
 效果：
 
 <p>/assets/audio/Bohemian%20Rhapsody.mp3</p>
+
+前一种的好处就是快，毕竟 github 在国内的网速挺慢的；后一种的好处就是操作简单。这个看个人取舍吧。
