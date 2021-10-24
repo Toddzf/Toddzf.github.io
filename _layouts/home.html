@@ -45,6 +45,7 @@ layout: default
           href="{% if page == 1 %}{{  '/' | prepend: site.baseurl }}{% else %}{{ site.paginate_path | relative_url | replace: ':num', page }}{% endif %}">{{
           page }}</a>
       </li>
+      {% endif %}
       {% endfor %}
       {% if paginator.next_page %}
       <li class="next"><a href="{{ paginator.next_page_path | relative_url }}">→</a></li>
