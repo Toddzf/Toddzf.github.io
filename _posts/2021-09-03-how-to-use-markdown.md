@@ -6,6 +6,7 @@ last_modified_at: 2021-09-03 09:08:25 +0800
 tags: [Tutorial]
 categories: Tutorial
 toc:  true
+math: true
 password: 
 ---
 
@@ -337,6 +338,11 @@ Markdown[^what-is-markdown][^feeling]
 [^what-is-markdown]: 一种标记语言
 [^feeling]: 很好用
 
+### 3.10 Mathjax(LaTeX)
+
+$\LaTeX$
+
+$\color{red}{Test}$
 
 ## 4 Q&A
 
