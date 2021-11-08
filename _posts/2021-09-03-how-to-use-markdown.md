@@ -340,9 +340,9 @@ Markdown[^what-is-markdown][^feeling]
 
 ### 3.10 Mathjax(LaTeX)
 
-$\LaTeX$
+$$\LaTeX$$
 
-$\color{red}{Test}$
+$$\color{red}{Test}$$
 
 ## 4 Q&A
 
